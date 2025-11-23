@@ -103,7 +103,6 @@ Copy the ngrok HTTPS URL (e.g., `https://abc123.ngrok.io`)
 ## File Structure
 
 ```
-twilio-test/
 ├── reply_whatsapp.py           # Flask webhook handler
 ├── chatbot.py                  # Main chatbot logic
 ├── data_store.py               # JSON data storage
