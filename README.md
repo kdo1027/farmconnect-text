@@ -72,26 +72,19 @@ Copy the ngrok HTTPS URL (e.g., `https://abc123.ngrok.io`)
 
 1. Send a message to your Twilio WhatsApp number
 2. Choose your role:
-   - Reply **1** for Farmer/Laborer
-   - Reply **2** for Farm Owner
+   - Reply 1 for Farmer/Laborer
+   - Reply 2 for Farm Owner
 
 ### Farmer Flow
 
 1. **Registration**
-   - Provide name
-   - Provide location
-   - Upload ID photo
+   - Provide name, location, and ID photo
 
 2. **Set Preferences** (All Multiple Choice)
-   - Choose work types (1-6, can select multiple)
-     - Harvesting, Planting, Irrigation, Livestock care, General labor, All types
-   - Select travel distance (1-4)
-     - Up to 10/25/50 miles, Any distance
-   - Choose work schedule (1-3)
-     - Full-time, Part-time, Flexible
+   - Choose work types, travel distance, and work schedule
 
 3. **Browse Jobs**
-   - View **top 5 matched jobs** at once (sorted by highest pay)
+   - View top 5 matched jobs at once (sorted by highest pay)
    - Select a job by number (1-5) to see full details
    - Apply for job or go back to list
 
@@ -206,21 +199,21 @@ See **[TESTING_GUIDE.md](TESTING_GUIDE.md)** for the complete testing guide.
 
 ## Features Implemented
 
-- ✅ Rule-based job matching (sorted by salary)
-- ✅ Multiple-choice preferences (guaranteed valid responses)
-- ✅ Top 5 job list display
-- ✅ Comprehensive test suite (49 tests)
-- ✅ Support for per-hour and per-day payment types
-- ✅ JSON-based data persistence
-- ✅ WhatsApp integration via Twilio
-- ✅ User registration for farmers and farm owners
-- ✅ Job posting and browsing
-- ✅ AI matcher code (available but disabled)
+- [x] Rule-based job matching (sorted by salary)
+- [x] Multiple-choice preferences (guaranteed valid responses)
+- [x] Top 5 job list display
+- [x] Comprehensive test suite (49 tests)
+- [x] Support for per-hour and per-day payment types
+- [x] JSON-based data persistence
+- [x] WhatsApp integration via Twilio
+- [x] User registration for farmers and farm owners
+- [x] Job posting and browsing
+- [x] AI matcher code (available but disabled)
 
 ## Next Steps 
 
-- [ ] Enhance Farm Owner Features - Improve job posting interface and applicant management
 - [ ] Add bilingual interface (English/Español) for better accessibility
+- [ ] Enhance Farm Owner Features - Improve job posting interface and applicant management
 - [ ] Geolocation-based job matching (distance calculations)
 - [ ] SMS/WhatsApp notifications for new job matches
 - [ ] Rating and review system (farmers ↔️ farm owners)
